@@ -73,15 +73,15 @@ app/CMakeFiles/TestBuild.dir/main.cpp.o: app/CMakeFiles/TestBuild.dir/flags.make
 app/CMakeFiles/TestBuild.dir/main.cpp.o: /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/app/main.cpp
 app/CMakeFiles/TestBuild.dir/main.cpp.o: app/CMakeFiles/TestBuild.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/CMakeFiles/TestBuild.dir/main.cpp.o"
-	cd /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT app/CMakeFiles/TestBuild.dir/main.cpp.o -MF CMakeFiles/TestBuild.dir/main.cpp.o.d -o CMakeFiles/TestBuild.dir/main.cpp.o -c /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/app/main.cpp
+	cd /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/app && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT app/CMakeFiles/TestBuild.dir/main.cpp.o -MF CMakeFiles/TestBuild.dir/main.cpp.o.d -o CMakeFiles/TestBuild.dir/main.cpp.o -c /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/app/main.cpp
 
 app/CMakeFiles/TestBuild.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TestBuild.dir/main.cpp.i"
-	cd /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/app/main.cpp > CMakeFiles/TestBuild.dir/main.cpp.i
+	cd /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/app && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/app/main.cpp > CMakeFiles/TestBuild.dir/main.cpp.i
 
 app/CMakeFiles/TestBuild.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TestBuild.dir/main.cpp.s"
-	cd /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/app/main.cpp -o CMakeFiles/TestBuild.dir/main.cpp.s
+	cd /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/app && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/app/main.cpp -o CMakeFiles/TestBuild.dir/main.cpp.s
 
 # Object files for target TestBuild
 TestBuild_OBJECTS = \
@@ -93,8 +93,8 @@ TestBuild_EXTERNAL_OBJECTS =
 app/TestBuild: app/CMakeFiles/TestBuild.dir/main.cpp.o
 app/TestBuild: app/CMakeFiles/TestBuild.dir/build.make
 app/TestBuild: src/first_lib/libLibCore.a
-app/TestBuild: _deps/fmt-build/libfmt.a
-app/TestBuild: _deps/spdlog-build/libspdlog.a
+app/TestBuild: _deps/fmt-build/libfmtd.a
+app/TestBuild: _deps/spdlog-build/libspdlogd.a
 app/TestBuild: app/CMakeFiles/TestBuild.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable TestBuild"
 	cd /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TestBuild.dir/link.txt --verbose=$(VERBOSE)

@@ -2,6 +2,7 @@
 #include <iostream>
 #include <nlohmann/json.hpp>
 #include <cxxopts.hpp>
+#include <spdlog/logger.h>
 
 
 int main() {

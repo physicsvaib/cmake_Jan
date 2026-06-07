@@ -83,6 +83,7 @@ preinstall: app/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/Docs.dir/clean
 clean: _deps/nlohmann_json-build/clean
 clean: _deps/fmt-build/clean
 clean: _deps/spdlog-build/clean
@@ -211,6 +212,32 @@ src/first_lib/preinstall:
 # Recursive "clean" directory target.
 src/first_lib/clean: src/first_lib/CMakeFiles/LibCore.dir/clean
 .PHONY : src/first_lib/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Docs.dir
+
+# All Build rule for target.
+CMakeFiles/Docs.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Docs.dir/build.make CMakeFiles/Docs.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Docs.dir/build.make CMakeFiles/Docs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/CMakeFiles --progress-num= "Built target Docs"
+.PHONY : CMakeFiles/Docs.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Docs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Docs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/CMakeFiles 0
+.PHONY : CMakeFiles/Docs.dir/rule
+
+# Convenience name for target.
+Docs: CMakeFiles/Docs.dir/rule
+.PHONY : Docs
+
+# clean rule for target.
+CMakeFiles/Docs.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Docs.dir/build.make CMakeFiles/Docs.dir/clean
+.PHONY : CMakeFiles/Docs.dir/clean
 
 #=============================================================================
 # Target rules for target _deps/fmt-build/CMakeFiles/fmt.dir

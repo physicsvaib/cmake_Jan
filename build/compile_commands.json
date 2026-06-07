@@ -1,0 +1,68 @@
+[
+{
+  "directory": "/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/fmt-build",
+  "command": "/usr/bin/g++  -I/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/fmt-src/include -g -std=gnu++17 -o CMakeFiles/fmt.dir/src/format.cc.o -c /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/fmt-src/src/format.cc",
+  "file": "/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/fmt-src/src/format.cc",
+  "output": "_deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.o"
+},
+{
+  "directory": "/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/fmt-build",
+  "command": "/usr/bin/g++  -I/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/fmt-src/include -g -std=gnu++17 -o CMakeFiles/fmt.dir/src/os.cc.o -c /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/fmt-src/src/os.cc",
+  "file": "/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/fmt-src/src/os.cc",
+  "output": "_deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o"
+},
+{
+  "directory": "/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-src/include -g -std=c++17 -o CMakeFiles/spdlog.dir/src/spdlog.cpp.o -c /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-src/src/spdlog.cpp",
+  "file": "/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-src/src/spdlog.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.o"
+},
+{
+  "directory": "/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-src/include -g -std=c++17 -o CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o -c /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-src/src/stdout_sinks.cpp",
+  "file": "/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-src/src/stdout_sinks.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o"
+},
+{
+  "directory": "/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-src/include -g -std=c++17 -o CMakeFiles/spdlog.dir/src/color_sinks.cpp.o -c /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-src/src/color_sinks.cpp",
+  "file": "/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-src/src/color_sinks.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o"
+},
+{
+  "directory": "/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-src/include -g -std=c++17 -o CMakeFiles/spdlog.dir/src/file_sinks.cpp.o -c /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-src/src/file_sinks.cpp",
+  "file": "/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-src/src/file_sinks.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o"
+},
+{
+  "directory": "/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-src/include -g -std=c++17 -o CMakeFiles/spdlog.dir/src/async.cpp.o -c /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-src/src/async.cpp",
+  "file": "/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-src/src/async.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/async.cpp.o"
+},
+{
+  "directory": "/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-src/include -g -std=c++17 -o CMakeFiles/spdlog.dir/src/cfg.cpp.o -c /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-src/src/cfg.cpp",
+  "file": "/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-src/src/cfg.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/cfg.cpp.o"
+},
+{
+  "directory": "/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-src/include -g -std=c++17 -o CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o -c /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-src/src/bundled_fmtlib_format.cpp",
+  "file": "/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-src/src/bundled_fmtlib_format.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o"
+},
+{
+  "directory": "/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/src/first_lib",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/src/first_lib/. -I/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/nlohmann_json-src/include -I/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/fmt-src/include -I/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-src/include -I/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/cxxopts-src/include -g -std=gnu++17 -o CMakeFiles/LibCore.dir/printer.cpp.o -c /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/src/first_lib/printer.cpp",
+  "file": "/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/src/first_lib/printer.cpp",
+  "output": "src/first_lib/CMakeFiles/LibCore.dir/printer.cpp.o"
+},
+{
+  "directory": "/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/app",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/src/first_lib/. -I/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/nlohmann_json-src/include -I/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/fmt-src/include -I/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-src/include -I/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/cxxopts-src/include -g -std=gnu++17 -o CMakeFiles/TestBuild.dir/main.cpp.o -c /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/app/main.cpp",
+  "file": "/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/app/main.cpp",
+  "output": "app/CMakeFiles/TestBuild.dir/main.cpp.o"
+}
+]

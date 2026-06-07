@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/TestBuild.dir/main.cpp.o -o TestBuild  ../src/first_lib/libLibCore.a ../_deps/fmt-build/libfmt.a ../_deps/spdlog-build/libspdlog.a 
+/usr/bin/g++ -g CMakeFiles/TestBuild.dir/main.cpp.o -o TestBuild  ../src/first_lib/libLibCore.a ../_deps/fmt-build/libfmtd.a ../_deps/spdlog-build/libspdlogd.a 

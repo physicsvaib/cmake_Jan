@@ -17,6 +17,7 @@ set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake/")
 include(AddGitSubmodule)
 # this is used for fetching content already incluced by default
 include(FetchContent)
+include(Doxygen)
 
 FetchContent_Declare(
     nlohmann_json

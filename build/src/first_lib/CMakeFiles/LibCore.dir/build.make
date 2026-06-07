@@ -73,15 +73,15 @@ src/first_lib/CMakeFiles/LibCore.dir/printer.cpp.o: src/first_lib/CMakeFiles/Lib
 src/first_lib/CMakeFiles/LibCore.dir/printer.cpp.o: /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/src/first_lib/printer.cpp
 src/first_lib/CMakeFiles/LibCore.dir/printer.cpp.o: src/first_lib/CMakeFiles/LibCore.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/first_lib/CMakeFiles/LibCore.dir/printer.cpp.o"
-	cd /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/src/first_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/first_lib/CMakeFiles/LibCore.dir/printer.cpp.o -MF CMakeFiles/LibCore.dir/printer.cpp.o.d -o CMakeFiles/LibCore.dir/printer.cpp.o -c /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/src/first_lib/printer.cpp
+	cd /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/src/first_lib && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/first_lib/CMakeFiles/LibCore.dir/printer.cpp.o -MF CMakeFiles/LibCore.dir/printer.cpp.o.d -o CMakeFiles/LibCore.dir/printer.cpp.o -c /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/src/first_lib/printer.cpp
 
 src/first_lib/CMakeFiles/LibCore.dir/printer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LibCore.dir/printer.cpp.i"
-	cd /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/src/first_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/src/first_lib/printer.cpp > CMakeFiles/LibCore.dir/printer.cpp.i
+	cd /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/src/first_lib && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/src/first_lib/printer.cpp > CMakeFiles/LibCore.dir/printer.cpp.i
 
 src/first_lib/CMakeFiles/LibCore.dir/printer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LibCore.dir/printer.cpp.s"
-	cd /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/src/first_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/src/first_lib/printer.cpp -o CMakeFiles/LibCore.dir/printer.cpp.s
+	cd /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/src/first_lib && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/phyw/Documents/Projs/C++/Cmake/Jan_Course/src/first_lib/printer.cpp -o CMakeFiles/LibCore.dir/printer.cpp.s
 
 # Object files for target LibCore
 LibCore_OBJECTS = \
