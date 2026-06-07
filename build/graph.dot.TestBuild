@@ -1,0 +1,10 @@
+digraph "TestBuild" {
+node [
+  fontsize = "12"
+];
+    "node1" [ label = "TestBuild", shape = egg ];
+    "node0" [ label = "LibCore", shape = octagon ];
+    "node1" -> "node0" [ style = dotted ] // TestBuild -> LibCore
+    "node2" [ label = "nlohmann_json", shape = septagon ];
+    "node1" -> "node2" [ style = dotted ] // TestBuild -> nlohmann_json
+}

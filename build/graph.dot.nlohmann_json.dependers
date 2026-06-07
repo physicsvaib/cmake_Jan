@@ -1,0 +1,8 @@
+digraph "nlohmann_json" {
+node [
+  fontsize = "12"
+];
+    "node2" [ label = "nlohmann_json", shape = septagon ];
+    "node1" [ label = "TestBuild", shape = egg ];
+    "node1" -> "node2" [ style = dotted ] // TestBuild -> nlohmann_json
+}

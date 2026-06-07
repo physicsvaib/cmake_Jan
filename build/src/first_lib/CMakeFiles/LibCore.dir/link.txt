@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLibCore.a CMakeFiles/LibCore.dir/printer.cpp.o
+/usr/bin/ranlib libLibCore.a

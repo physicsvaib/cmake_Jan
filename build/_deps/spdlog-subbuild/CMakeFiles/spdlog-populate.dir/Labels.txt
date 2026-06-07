@@ -1,0 +1,14 @@
+# Target labels
+ spdlog-populate
+# Source files and their labels
+/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate
+/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate.rule
+/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate-complete.rule
+/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-build.rule
+/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-configure.rule
+/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-download.rule
+/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-install.rule
+/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-mkdir.rule
+/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-patch.rule
+/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-test.rule
+/home/phyw/Documents/Projs/C++/Cmake/Jan_Course/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-update.rule

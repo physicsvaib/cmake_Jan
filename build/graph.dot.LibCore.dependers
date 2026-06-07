@@ -1,0 +1,8 @@
+digraph "LibCore" {
+node [
+  fontsize = "12"
+];
+    "node0" [ label = "LibCore", shape = octagon ];
+    "node1" [ label = "TestBuild", shape = egg ];
+    "node1" -> "node0" [ style = dotted ] // TestBuild -> LibCore
+}
